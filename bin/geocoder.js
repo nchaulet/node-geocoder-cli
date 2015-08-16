@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var program         = require('commander'),
+var program  = require('commander'),
   GeocoderFactory = require('node-geocoder');
 
 program

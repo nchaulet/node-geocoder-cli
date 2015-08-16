@@ -1,5 +1,10 @@
 # Node geocoder command line client
 
+## Installation
+
+```shell
+npm install -g node-geocoder-cli
+```
 
 ## Usage
 
