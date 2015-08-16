@@ -10,7 +10,7 @@
     "url": "https://github.com/nchaulet/node-geocoder-cli.git"
   },
   "bin": {
-    "geocoder": "bin/geocoder.js",
+    "geocoder": "bin/geocoder.js"
   },
   "keywords": [
     "geocoder",
