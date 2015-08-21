@@ -25,6 +25,6 @@
   "homepage": "https://github.com/nchaulet/node-geocoder-cli",
   "dependencies": {
     "commander": "^2.8.1",
-    "node-geocoder": "^2.23.0"
+    "node-geocoder": "^3.0.0"
   }
 }

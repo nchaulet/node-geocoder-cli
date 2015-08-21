@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var program  = require('commander'),
-  GeocoderFactory = require('node-geocoder');
+  NodeGeocoder = require('node-geocoder');
 
 program
   .version('2.12.0')
@@ -15,7 +15,7 @@ program
   .description('geocode given value')
   .action(function(value){
     try {
-      var geocoder = GeocoderFactory.getGeocoder(program.provider);
+      var geocoder = NodeGeocoder(program.provider);
     } catch(e) {
       console.error(e.message);
       process.exit(1);
@@ -35,7 +35,7 @@ program
   .description('reverse geocode given value')
   .action(function(lat, long){
     try {
-      var geocoder = GeocoderFactory.getGeocoder(program.provider);
+      var geocoder = NodeGeocoder(program.provider);
     } catch(e) {
       console.error(e.message);
       process.exit(1);
