@@ -4,7 +4,7 @@ var program  = require('commander'),
   NodeGeocoder = require('node-geocoder');
 
 program
-  .version('2.12.0')
+  .version('1.0.0')
   .option('-p, --provider [value]]', 'Geocoder provider (default to google)', 'google');
 
 // Crappy hack
